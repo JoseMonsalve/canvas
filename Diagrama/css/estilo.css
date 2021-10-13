@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body{
+	overflow: hidden;
+}
+
+#contenedor{
+	position: relative;
+	margin: 5vh auto;
+	width: 800px;
+	height: 600px;
+}
+
+#lienzo{
+	background: url(../img/lienzo.jpg);
+}
+
+#contenedor button{
+	display: block;
+	position: relative;
+	margin: 5px 0;
+	padding: 10px;
+	cursor: pointer;
+}
